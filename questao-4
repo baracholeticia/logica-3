@@ -1,0 +1,15 @@
+#execução em código:
+a = True
+b = False
+c = True
+print('a. A ^(B v C):', a and (b or c))
+print('b. (A ^ B) v C:', (a and b) or c)
+print('c. (A ^ B)’ v C:', not(a and b) or c)
+print('d. A’ v (B’ ^ C)’:', not a or not(not b and c))
+print('e. A v (B v C)’:',a or not(b or c))
+#respostas:
+#a. verdadeiro
+#b. verdadeiro
+#c. verdadeiro
+#d. falso
+#e. verdadeiro
