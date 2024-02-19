@@ -1,0 +1,7 @@
+1. Suponha que A, B e C representam condições que serão verdadeiras e falsas quando um programa é executado. Suponha ainda que desejamos que este programa realize alguma tarefa somente quando A ou B forem verdadeiras (mas não ambas) e C for falsa.
+a) Usando A, B e C e os conectivos E, OU e NOT, escreva uma sentença que será verdadeira apenas nestas condições.
+  ((A v B) ^ (A' v B')) ^ C'
+  ((A or B) and (not A or not B)) and not C
+b) Usando A, B e C e os conectivos E, OU e NOT, escreva uma sentença que será falsa apenas nestas condições.
+  (((A v B) ^ (A' v B')) ^ C')'
+  not(((A or B) and (not A or not B)) and not C)
