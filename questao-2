@@ -1,0 +1,18 @@
+#questão 2:
+
+#entrada de um número ímpar:
+n = int(input('Digite qualquer número ímpar: '))
+#verificação se o número é ímpar:
+if n % 2 != 0:
+  #cálculo do quadrado:
+  quadrado = n**2
+  #verificação se o quadrado é ímpar
+  if quadrado % 2 != 0:
+    #prova que todo ímpar tem quadrado ímpar:
+    print(f'O quadrado de {n} é {quadrado} e é ímpar\n')
+    #mensagem de erro caso proposição seja falsa:
+  else:
+    print(f'O quadrado de {n} é {quadrado} e não é ímpar\n')
+#caso número não seja ímpar:
+else:
+  print(f'{n} não é ímpar, informe outro número\n')
